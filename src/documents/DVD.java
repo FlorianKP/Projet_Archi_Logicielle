@@ -7,12 +7,12 @@ import main.Abonne;
 public class DVD implements Document {
     private int numero;
     private String titre;
-    private int nbPages;
+    private boolean adulte;
 
-    public DVD(int numero, String titre, int nbPages) {
+    public DVD(int numero, String titre, boolean adulte) {
         this.numero = numero;
         this.titre = titre;
-        this.nbPages = nbPages;
+        this.adulte = adulte;
     }
     @Override
     public int numero() {

@@ -9,12 +9,12 @@ public class Livre implements Document {
 
     private int numero;
     private String titre;
-    private boolean adulte;
+    private int nbPages;
 
-    public Livre(int numero, String titre, boolean adulte) {
+    public Livre(int numero, String titre, int nbPages) {
         this.numero = numero;
         this.titre = titre;
-        this.adulte = adulte;
+        this.nbPages = nbPages;
     }
 
     @Override
